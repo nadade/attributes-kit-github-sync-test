@@ -1,0 +1,37 @@
+FORMAT: 1A
+
+# Attributes Kit GitHub sync
+
+sync test - GitHub >> Apiary
+
+GitHub sync delay - update
+
+GitHub sync test #2
+fdsfdsfds
+
+test #2
+
+change to override from GitHub
+fjghdslfhglksfdjhg
+
+# Group Coupons
+
+## Coupon [/coupons/{id}]
+
++ Parameters
+    + id (string)
+
+        The ID of the desired coupon.
+
++ Attributes (object)
+    + id: 250FF (string, required)
+    + created: 1415203908 (number) - Time stamp
+    + percent_off: 25 (number)
+
+        A positive integer between 1 and 100 that represents the discount the coupon will apply.
+
+    + redeem_by (number) - Date after which the coupon can no longer be redeemed
+
+### Retrieve a Coupon [GET]
++ Response 200 (application/json)
+    + Attributes (Coupon)
